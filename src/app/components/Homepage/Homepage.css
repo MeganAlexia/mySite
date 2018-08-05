@@ -4,6 +4,7 @@
 }
 
 .Homepage-presentation {
+
   width: 50%;
   height: 100%;
 
@@ -17,15 +18,9 @@
   align-items: center;
   justify-content: center;
   border: double thick;
-  color: #D80079;
   height: 50%;
 }
 
 .Homepage-title {
-  color: #D80079;
   font-size: 50px;
-}
-
-.Homepage-subtitle {
-  color: #D80079;
 }

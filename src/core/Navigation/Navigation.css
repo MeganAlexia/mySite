@@ -1,9 +1,9 @@
 .Navigation {
-  background-color: #00D8CB;
+  background-color: black;
   display: flex;
   top: 0;
   justify-content: flex-end;
-  height: 100px;
+  height: 70px;
   position: sticky;
 }
 
@@ -17,15 +17,12 @@
 
 .Navigation-title {
   padding-top: 0px;
-  color: #D80079;
+  color: white;
 }
 
 
 .Navigation-item {
   margin: 10px;
-}
-
-.Navigation-link {
   text-decoration: none;
-  color: #D80079;
+  color: white;
 }

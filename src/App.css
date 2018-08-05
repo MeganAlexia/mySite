@@ -7,30 +7,35 @@
 }
 
 #App-homepage {
+  background-image: url('./assets/work.jpg');
+  background-size: cover;
   height: 100vh;
-  background-color: red;
 }
 
 #App-studies {
+
+  background-image: url('./assets/bali.jpg');
+  background-size: cover;
   height: 100vh;
-  background-color: blue;
 }
 
 #App-profile {
+
   height: 100vh;
-  background-color: purple;
+  background-image: url('./assets/road.jpg');
+  background-size: cover;
 }
 
 #App-hobbies {
+
   height: 100vh;
-  background-color: green;
+  background-image: url('./assets/skate.jpg');
+  background-size: cover;
 }
 
 #App-experiences {
-  height: 100vh;
-}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  background-image: url('./assets/venice_beach.jpg');
+  background-size: cover;
+  height: 100vh;
 }
