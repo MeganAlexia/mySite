@@ -13,15 +13,23 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation/>
-        <HashRouter>
-          <div className="App-router">
-            <Route exact path="/" component={Homepage}/>
-            <Route path="/profile" component={Profile}/>
-            <Route path="/studies" component={Studies}/>
-            <Route path="/experiences" component={Experiences}/>
-            <Route path="/hobbies" component={Hobbies}/>
+        <div className="App-content">
+          <div id="App-homepage">
+            <Homepage/>
           </div>
-        </HashRouter>
+          <div id="App-profile">
+            <Profile/>
+          </div>
+          <div id="App-studies">
+            <Studies/>
+          </div>
+          <div id="App-experiences">
+            <Experiences/>
+          </div>
+          <div id="App-hobbies">
+            <Hobbies/>
+          </div>
+        </div>
       </div>
     );
   }

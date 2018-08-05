@@ -1,13 +1,33 @@
 .App {
-  background-image: url('./assets/home.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
   height: 100%;
-
 }
 
-.App-router {
-  height: calc(100% - 100px);
+.App-content {
+  height: 100%;
+}
+
+#App-homepage {
+  height: 100%;
+  background-color: red;
+}
+
+#App-studies {
+  height: 100%;
+  background-color: blue;
+}
+
+#App-profile {
+  height: 100%;
+  background-color: purple;
+}
+
+#App-hobbies {
+  height: 100%;
+  background-color: green;
+}
+
+#App-experiences {
+  height: 100%;
 }
 
 @keyframes App-logo-spin {

@@ -6,23 +6,24 @@ import {
 import './Navigation.css';
 
 export class Navigation extends Component {
+  navigate(id) {
+    console.log('id ', id);
+    document.getElementById(id).scrollIntoView();
+  }
+
   render() {
     return (
-      <HashRouter>
-        <div className="Navigation">
-          <ul className="Navigation-menu">
-            <li className="Navigation-item">
-              <NavLink className="Navigation-link" to="/">
-                <h1 className="Navigation-title">MY SITE</h1>
-              </NavLink>
-            </li>
-            <li className="Navigation-item"><NavLink className="Navigation-link" to="/profile">Profile</NavLink></li>
-            <li className="Navigation-item"><NavLink className="Navigation-link" to="/studies">Studies</NavLink></li>
-            <li className="Navigation-item"><NavLink className="Navigation-link" to="/experiences">Experiences</NavLink></li>
-            <li className="Navigation-item"><NavLink className="Navigation-link" to="/hobbies">Hobbies</NavLink></li>
-          </ul>
-        </div>
-      </HashRouter>
+      <div className="Navigation">
+        <ul className="Navigation-menu">
+          <li className="Navigation-item" onClick={() => this.navigate('App-homepage')}>
+              <h1 className="Navigation-title">MY SITE</h1>
+          </li>
+          <li className="Navigation-item" onClick={() => this.navigate('App-profile')}>Profile</li>
+          <li className="Navigation-item" onClick={() => this.navigate('App-studies')}>Studies</li>
+          <li className="Navigation-item" onClick={() => this.navigate('App-experiences')}>Experiences</li>
+          <li className="Navigation-item" onClick={() => this.navigate('App-hobbies')}>Hobbies</li>
+        </ul>
+      </div>
     );
   }
 }

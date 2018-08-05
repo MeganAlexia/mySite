@@ -3,8 +3,15 @@ import cssModule from 'react-css-modules';
 import styles from './Hobbies.css';
 
 const Hobbies = () => (
-  <div>
-    Hobbies
+  <div className="Hobbies">
+    <ul>
+      <li>Skating</li>
+      <li>Kitesurfing</li>
+      <li>Running</li>
+      <li>Painting</li>
+      <li>Reading</li>
+      <li>Travelling</li>
+    </ul>
   </div>
 );
 
