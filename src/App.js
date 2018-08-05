@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Route, HashRouter } from 'react-router-dom';
 import Experiences from './app/components/Experiences';
 import { Navigation } from './core/Navigation/Navigation';
 import Profile from './app/components/Profile';

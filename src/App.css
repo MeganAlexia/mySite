@@ -7,27 +7,27 @@
 }
 
 #App-homepage {
-  height: 100%;
+  height: 100vh;
   background-color: red;
 }
 
 #App-studies {
-  height: 100%;
+  height: 100vh;
   background-color: blue;
 }
 
 #App-profile {
-  height: 100%;
+  height: 100vh;
   background-color: purple;
 }
 
 #App-hobbies {
-  height: 100%;
+  height: 100vh;
   background-color: green;
 }
 
 #App-experiences {
-  height: 100%;
+  height: 100vh;
 }
 
 @keyframes App-logo-spin {
