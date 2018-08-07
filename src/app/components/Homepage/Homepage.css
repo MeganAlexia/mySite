@@ -1,13 +1,14 @@
 .Homepage {
+  z-index: 1;
   display: flex;
   justify-content: flex-end;
+  height: 100%;
 }
 
 .Homepage-presentation {
-
+  color: #03C0DA;
   width: 50%;
   height: 100%;
-
 }
 
 .Homepage-border {

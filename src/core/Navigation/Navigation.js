@@ -3,8 +3,7 @@ import './Navigation.css';
 
 export class Navigation extends Component {
   navigate(id) {
-    console.log('id ', id);
-    document.getElementById(id).scrollIntoView();
+    document.getElementById(id).scrollIntoView({behavior: "smooth"});
   }
 
   render() {
