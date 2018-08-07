@@ -13,25 +13,25 @@ class App extends Component {
       <div className="App">
         <Navigation/>
         <div className="App-content">
-          <div id="App-background">
-              <div id="App-container">
-                <div id="App-homepage"></div>
+          <div className="App-background">
+              <div className="App-container">
+                <div className="App-picture" id="App-homepage"></div>
                 <Homepage/>
               </div>
-              <div id="App-container">
-                <div id="App-profile"></div>
+              <div className="App-container">
+                <div className="App-picture" id="App-profile"></div>
                 <Profile/>
               </div>
-              <div id="App-container">
-                <div id="App-studies"></div>
+              <div className="App-container">
+                <div className="App-picture" id="App-studies"></div>
                 <Studies/>
               </div>
-              <div id="App-container">
-                <div id="App-experiences"></div>
+              <div className="App-container">
+                <div className="App-picture" id="App-experiences"></div>
                 <Experiences/>
               </div>
-              <div id="App-container">
-                <div id="App-hobbies"></div>
+              <div className="App-container">
+                <div className="App-picture" id="App-hobbies"></div>
                 <Hobbies/>
               </div>
           </div>

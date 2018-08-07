@@ -7,66 +7,44 @@
 
 }
 
-#test {
-  height: 100%;
-  width: 100%;
-}
-
-#App-background {
+.App-background {
   position: relative;
   width: 100%;
   height: 100%;
   margin-bottom: 5px;
 }
 
-#App-container {
+.App-container {
   width: 100%;
   height: 100vh;
   position: relative;
 }
 
-#App-homepage {
+.App-picture {
   z-index: -1;
   position: absolute;
   filter: grayscale(80%);
-  background-image: url('./assets/work.jpg');
   background-size: cover;
   height: 100vh;
   width: 100%;
+}
+
+#App-homepage {
+  background-image: url('./assets/work.jpg');
 }
 
 #App-profile {
-  position: absolute;
-  z-index: -1;
-  height: 100vh;
-  width: 100%;
   background-image: url('./assets/road.jpg');
-  background-size: cover;
 }
 
 #App-studies {
-  position: absolute;
-  z-index: -1;
   background-image: url('./assets/bali.jpg');
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
 }
 
 #App-hobbies {
-  position: absolute;
-  z-index: -1;
-  height: 100vh;
-  width: 100%;
   background-image: url('./assets/skate.jpg');
-  background-size: cover;
 }
 
 #App-experiences {
-  z-index: -1;
-  position: absolute;
   background-image: url('./assets/venice_beach.jpg');
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
 }
