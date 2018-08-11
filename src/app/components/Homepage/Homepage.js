@@ -9,8 +9,9 @@ class Homepage extends React.Component {
     <div className="Homepage">
       <div className="Homepage-presentation">
         <div className="Homepage-border">
-          <h1 className="Homepage-title">I am Megan Arneau</h1>
-          <h2 className="Homepage-subtitle">Frontend Developer</h2>
+          <p className="Homepage-above-title"><span>I am</span></p>
+          <h1 className="Homepage-title">Megan Arneau</h1>
+          <p className="Homepage-under-title"><span>Frontend Developer</span></p>
         </div>
       </div>
     </div>

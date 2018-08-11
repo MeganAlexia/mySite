@@ -3,6 +3,10 @@
   display: flex;
   justify-content: center;
   height: 100%;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
 }
 
 .Homepage-presentation {
@@ -17,10 +21,57 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: double thick;
   height: 50%;
 }
 
 .Homepage-title {
-  font-size: 50px;
+  font-size: 80px;
+}
+
+.Homepage-above-title span {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.Homepage-before-title span {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.Homepage-above-title span:before,
+.Homepage-above-title span:after {
+  content: "";
+  margin-top: 20px;
+  position: absolute;
+  border-top: 1px solid black;
+  width: 270px;
+}
+
+.Homepage-above-title span:before {
+  right: 100%;
+  margin-right: 20px;
+}
+
+.Homepage-above-title span:after{
+  left: 100%;
+  margin-left: 20px;
+}
+
+.Homepage-under-title span:before,
+.Homepage-under-title span:after {
+  content: "";
+  margin-top: 20px;
+  position: absolute;
+  border-top: 1px solid black;
+  width: 125px;
+}
+
+.Homepage-under-title span:before {
+  margin-left: -150px;
+}
+
+.Homepage-under-title span:after{
+  margin-left: 20px;
 }

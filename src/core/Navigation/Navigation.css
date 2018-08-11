@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+.Navigation-menu li {
+  cursor: pointer;
+}
+
 .Navigation-title {
   padding-top: 0px;
 }
